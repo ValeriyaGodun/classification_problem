@@ -15,19 +15,19 @@
 
 **Проведение разведочного анализа.** 
 
-Гистограммы распределения признаков в каждом классе
+</center> Гистограммы распределения признаков в каждом классе</center> 
 
 <p align="center">
   <img width="1479" height="516" alt="image" src="https://github.com/user-attachments/assets/e3f1aa2e-7b80-4ade-bec6-13509deba37b" />
 </p>
 
-Диаграммы рассеяния
+</center> Диаграммы рассеяния</center> 
 
 <p align="center">
   <img width="675" height="486" alt="image" src="https://github.com/user-attachments/assets/a7c39b4c-166f-4bc6-99bb-6d932fb09667" />
 </p>
 
-Box-and-whisker
+</center> Box-and-whisker</center> 
 
 <p align="center">
   <img width="1491" height="497" alt="image" src="https://github.com/user-attachments/assets/99c2733a-9eea-4825-96f8-3e3f508539a0" />
