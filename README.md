@@ -8,37 +8,66 @@
 
 ## Структура ноутбука `название.ipynb`
 
-**Генерация выборки:** формирование классов, визуализация исходных распределений.
-!!!Графики
+**Генерация выборки.** 
+**Проведение разведочного анализа.** 
 
-**Проведение разведочного анализа:** построение гистограммы, диаграммы рассеяния, box-диаграммы, оценка
-статистических характеристик выборки.
+Гистограммы распределения признаков в каждом классе
 
-!!! графики
+<img width="1278" height="451" alt="image" src="https://github.com/user-attachments/assets/dca79ab6-5a14-4d8e-97da-e18a4dc2f952" />
+
+Диаграммы рассеяния
+
+<img width="578" height="432" alt="image" src="https://github.com/user-attachments/assets/ca6bf887-10ed-4c28-9b84-848c5c6a4f26" />
+
+Box-and-whisker
+
+<img width="1303" height="451" alt="image" src="https://github.com/user-attachments/assets/cea273c3-1ad7-4d1d-888d-68ed91f8066e" />
 
 **Обучение непараметрических Байесовских классификаторов:**
   - Расчёт ширины окон по правилу Сильвермана.
   - Кросс-валидация (50 фолдов) для ядер `tophat`, `gaussian`, `epanechnikov`, `linear`.
+    
+<img width="383" height="498" alt="image" src="https://github.com/user-attachments/assets/8764f837-2bef-4085-b849-4a0c0a627710" />
+    
   - Расчёт средней accuracy и std по train/test.
   - Построение графиков зависимости accuracy и std от коэффициента λ (отношение ширины окна к ширине Сильвермана).
+  - 
+<img width="1068" height="1067" alt="image" src="https://github.com/user-attachments/assets/f3599710-7b71-445d-be44-fd01b13990ad" />
+
+<img width="1317" height="1298" alt="image" src="https://github.com/user-attachments/assets/1f922600-98cb-4dda-8e1e-012834fb969d" />
+
   - Поиск λ с максимальной обобщающей способностью и минимальной дисперсией.
+    
   - Построение диаграмм областей классов для каждого фолда и сводный график со всеми границами.
 
-!!! средние значения
+<img width="702" height="624" alt="image" src="https://github.com/user-attachments/assets/27862cf8-7fe2-4025-91e4-84a06f5a22ab" />
 
 **Метрики качества:** ROC/PR кривые (micro/macro) с AUC для train/test.
 
-!!! Графики
+<img width="578" height="455" alt="image" src="https://github.com/user-attachments/assets/48591df3-ac3f-4249-aa93-eb8ffd6bbb2a" />
+
+<img width="578" height="455" alt="image" src="https://github.com/user-attachments/assets/bc458b6a-e757-485a-b288-1215bace88e5" />
+
+<img width="597" height="528" alt="image" src="https://github.com/user-attachments/assets/28f54ba5-3fb7-41ed-ae38-b2b6233f01b6" />
+
 
 **Обучение параметрического Байеса:** GaussianNB (диагональные ковариационные матрицы), усреднённые accuracy и std.
 
-!!! значения 
-**Дополнительные исследования:** 
-- Оценка априорных вероятностей.
-- Сравнение границ KDE(лучшее ядро) и GaussianNB.
-!!! Графики
+<img width="407" height="89" alt="image" src="https://github.com/user-attachments/assets/6780c211-51bc-4981-a864-83771f563fc3" />
 
 **Обучение логистической регрессии:** multinomial LogisticRegression, усреднённые accuracy и std.
+
+
+
+**Дополнительные исследования:** 
+
+- Оценка априорных вероятностей.
+
+- Сравнение границ KDE(лучшее ядро) и GaussianNB.
+
+<img width="1389" height="590" alt="image" src="https://github.com/user-attachments/assets/bff41c12-a0eb-42d0-9398-d5b53ee9a432" />
+
+
 
 ## Основные результаты
 
