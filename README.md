@@ -87,13 +87,7 @@ Box-and-whisker
 **Дополнительные исследования:** 
 
 - Оценка априорных вероятностей.
-
 - Сравнение границ.
-
-<p align="center">
-  <img width="745" height="401" alt="image" src="https://github.com/user-attachments/assets/072c8f98-ff47-4c4b-b970-3ddcb358e89f" />
-</p>
-
 
 ## Основные результаты
 
