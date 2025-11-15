@@ -13,86 +13,108 @@
 
 Гистограммы распределения признаков в каждом классе
 
-<img width="1278" height="451" alt="image" src="https://github.com/user-attachments/assets/dca79ab6-5a14-4d8e-97da-e18a4dc2f952" />
+<p align="center">
+  <img width="1479" height="516" alt="image" src="https://github.com/user-attachments/assets/e3f1aa2e-7b80-4ade-bec6-13509deba37b" />
+</p>
 
 Диаграммы рассеяния
 
-<img width="578" height="432" alt="image" src="https://github.com/user-attachments/assets/ca6bf887-10ed-4c28-9b84-848c5c6a4f26" />
+<p align="center">
+  <img width="675" height="486" alt="image" src="https://github.com/user-attachments/assets/a7c39b4c-166f-4bc6-99bb-6d932fb09667" />
+</p>
 
 Box-and-whisker
 
-<img width="1303" height="451" alt="image" src="https://github.com/user-attachments/assets/cea273c3-1ad7-4d1d-888d-68ed91f8066e" />
+<p align="center">
+  <img width="1491" height="497" alt="image" src="https://github.com/user-attachments/assets/99c2733a-9eea-4825-96f8-3e3f508539a0" />
+</p>
 
 **Обучение непараметрических Байесовских классификаторов:**
   - Расчёт ширины окон по правилу Сильвермана.
   - Кросс-валидация (50 фолдов) для ядер `tophat`, `gaussian`, `epanechnikov`, `linear`.
-    
-<img width="383" height="498" alt="image" src="https://github.com/user-attachments/assets/8764f837-2bef-4085-b849-4a0c0a627710" />
-    
   - Расчёт средней accuracy и std по train/test.
-  - Построение графиков зависимости accuracy и std от коэффициента λ (отношение ширины окна к ширине Сильвермана).
-  - 
-<img width="1068" height="1067" alt="image" src="https://github.com/user-attachments/assets/f3599710-7b71-445d-be44-fd01b13990ad" />
+    
+<p align="center">
+  <img width="473" height="496" alt="image" src="https://github.com/user-attachments/assets/d8c68a32-dabe-422f-a808-94c540b105bb" />
+</p>
 
-<img width="1317" height="1298" alt="image" src="https://github.com/user-attachments/assets/1f922600-98cb-4dda-8e1e-012834fb969d" />
+  - Построение графиков зависимости accuracy и std от коэффициента λ (отношение ширины окна к ширине Сильвермана).
+    
+<p align="center">
+  <img width="1220" height="594" alt="image" src="https://github.com/user-attachments/assets/33829125-6319-471e-9f01-a0a073d8b52c" />
+</p>
+
+<p align="center">
+  <img width="1511" height="716" alt="image" src="https://github.com/user-attachments/assets/aeb28e51-1a19-4b12-8ed3-72d168a14749" />
+</p>
 
   - Поиск λ с максимальной обобщающей способностью и минимальной дисперсией.
     
   - Построение диаграмм областей классов для каждого фолда и сводный график со всеми границами.
 
-<img width="702" height="624" alt="image" src="https://github.com/user-attachments/assets/27862cf8-7fe2-4025-91e4-84a06f5a22ab" />
+<p align="center">
+  <img width="799" height="704" alt="image" src="https://github.com/user-attachments/assets/5c05e3be-90b6-4313-9e29-a2497b893884" />
+</p>
 
 **Метрики качества:** ROC/PR кривые (micro/macro) с AUC для train/test.
 
-<img width="578" height="455" alt="image" src="https://github.com/user-attachments/assets/48591df3-ac3f-4249-aa93-eb8ffd6bbb2a" />
+<p align="center">
+  <img width="669" height="515" alt="image" src="https://github.com/user-attachments/assets/ce001fd9-4437-42a2-b25e-f6c26eb6adbe" />
+</p>
 
-<img width="578" height="455" alt="image" src="https://github.com/user-attachments/assets/bc458b6a-e757-485a-b288-1215bace88e5" />
+<p align="center">
+  <img width="675" height="512" alt="image" src="https://github.com/user-attachments/assets/56fdce3d-7acf-4f8e-9e1f-4053bd3e307d" />
+</p>
 
-<img width="597" height="528" alt="image" src="https://github.com/user-attachments/assets/28f54ba5-3fb7-41ed-ae38-b2b6233f01b6" />
+<p align="center">
+  <img width="606" height="522" alt="image" src="https://github.com/user-attachments/assets/1cb1fbbe-72fb-406d-86b6-4d1620a23d69" />
+</p>
 
 
 **Обучение параметрического Байеса:** GaussianNB (диагональные ковариационные матрицы), усреднённые accuracy и std.
 
-<img width="407" height="89" alt="image" src="https://github.com/user-attachments/assets/6780c211-51bc-4981-a864-83771f563fc3" />
+<p align="center">
+  <img width="392" height="97" alt="image" src="https://github.com/user-attachments/assets/f5bb837c-7811-4e41-95e2-52c36f0ed890" />
+</p>
 
 **Обучение логистической регрессии:** multinomial LogisticRegression, усреднённые accuracy и std.
 
+<p align="center">
+  <img width="388" height="82" alt="image" src="https://github.com/user-attachments/assets/8c7da5d3-360a-4b29-9a1d-75ae1506bd08" />
+</p>
 
 
 **Дополнительные исследования:** 
 
 - Оценка априорных вероятностей.
 
-- Сравнение границ KDE(лучшее ядро) и GaussianNB.
+- Сравнение границ.
 
-<img width="1389" height="590" alt="image" src="https://github.com/user-attachments/assets/bff41c12-a0eb-42d0-9398-d5b53ee9a432" />
-
+<p align="center">
+  <img width="745" height="401" alt="image" src="https://github.com/user-attachments/assets/072c8f98-ff47-4c4b-b970-3ddcb358e89f" />
+</p>
 
 
 ## Основные результаты
 
-- Лучшее ядро на средней точности по всем λ на тестовой выборке получилось 000.
+- Лучшее ядро на средней точности по всем λ на тестовой выборке получилось gaussian.
 
 - Максимальная точность для каждого ядра при его оптимальном λ:
-!!!РЕЗУЛЬТАТЫ
 
-Все четыре ядра дают практически одинаковую максимальную точность (≈0.938–0.940) и сопоставимые стандартные отклонения (~0.07), значит метод относительно устойчив к выбору типа ядра. Таким образом, выбор ядра почти не влияет на максимум точности.
+<p align="center">
+  <img width="715" height="110" alt="image" src="https://github.com/user-attachments/assets/1fa11198-6648-4aa6-957d-2460a318390f" />
+</p>
+
+Все четыре ядра дают похожую максимальную точность и сопоставимые стандартные отклонения, значит метод относительно устойчив к выбору типа ядра. Оптимальная ширина окна же варьируется по ядрам - все ядра достигают максимума при разных λ. Это указывает, что для данной задачи выбор ядра менее критичен, чем правильная ширина окна.
 
 - Смещённые априорные вероятности заметно изменяют границы и accuracy. Для данной выборки оптимальнее оставлять априорные вероятности равномерными, т.к. любые искусственные смещения ухудшают обобщающую способность KDE-классификатора.
 
 - GaussianNB уступает непараметрическому классификатору, но обеспечивает плавные границы, логистическая регрессия показывает промежуточный результат.
 
-!!! числа
-!!!сравнение моделей график
+<p align="center">
+  <img width="895" height="135" alt="image" src="https://github.com/user-attachments/assets/27ebd93a-7a10-439f-ae1a-0f477e33d6d4" />
+</p>
 
-## Как воспроизвести
-1. Открыть `.ipynb` в Jupyter/Colab.
-2. Выполнить ячейки по порядку (кросс-валидация и построение графиков может потребовать времени из-за 50 фолдов).
-3. Итоговые таблицы и графики автоматически сохраняются в выводах ноутбука.
+<img width="1647" height="485" alt="image" src="https://github.com/user-attachments/assets/ba694060-3596-4bdb-8fe1-b83e4f6d6f8f" />
 
-## Используемые библиотеки
-- `numpy`, `pandas`, `matplotlib`
-- `scikit-learn` (KDE, GaussianNB, LogisticRegression, метрики)
-- `pingouin` (multivariate_normality)
-- `itertools`, `collections`, `scipy.special`
 
